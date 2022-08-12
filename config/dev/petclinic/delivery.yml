@@ -41,7 +41,7 @@ spec:
       - env:
         - name: JAVA_TOOL_OPTIONS
           value: -Dmanagement.endpoint.health.show-details=always -Dmanagement.endpoints.web.base-path="/actuator" -Dmanagement.endpoints.web.exposure.include=* -Dmanagement.server.port="8081" -Dserver.port="8080" -Dserver.shutdown.grace-period="24s"
-        image: harbor.source-lab.io/tap/supply-chain/petclinic-dev@sha256:c65b63f3c495686de8e6ec7960181cf040042a486172f097af4b859cb33ee3a7
+        image: harbor.source-lab.io/tap/supply-chain/petclinic-dev@sha256:1e0e2920c7e63744a13f2b593754e41ab3d62197916c8d96ab3e5ed118b7dafd
         name: workload
         ports:
         - containerPort: 8080
